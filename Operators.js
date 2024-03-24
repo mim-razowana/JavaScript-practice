@@ -68,3 +68,13 @@ let cond2 = e===f;
 console.log("cond1 && cond2 =",cond1&&cond2);
 console.log("cond1 || cond2 =",cond1||cond2);
 console.log("!cond1 || cond2 =",!cond1&&cond2);
+
+// ternary operator
+//operate on 3 operands(there will be 1 condition and 2 output)
+
+let mark=30;
+let result = mark>=33 ? "pass" : "fail";
+console.log(result);
+
+let mark2=50;
+ mark2>=33 ? console.log("pass") : console.log("fail");
